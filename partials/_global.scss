@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    padding: 0.5rem;
+    max-width: 100%;
+    min-height: 100vh;
+    background-color: orangered;
+   
+
+}
+html{
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,39 @@
+.section-one{
+
+    background: url(/hero.avif);
+    background-size: contain;
+    min-height: 100vh;
+    margin-top: 15vh;
+    @media (max-width:915px) {
+        min-height: 70vh;
+    }
+    @media (max-width:646px) {
+        min-height: 50vh;
+    }
+    @media (max-width:466px) {
+        min-height: 40vh;
+    }
+    @media (max-width:372px) {
+        min-height: 35vh;
+    }
+    @media (max-width:296px) {
+        min-height: 25vh;
+    }
+
+    .company-name{
+        width:100%;
+        min-height: 20vh;
+        background-color: rgba(255, 192, 203, 0.452);
+        display: flex;
+       color: wheat;
+        align-items: center;
+        justify-content: center;
+        font-family: "Song Myung", serif;
+       font-weight: 400;
+        font-style: normal;
+        padding: 1rem;
+    }
+
+
+
+}
